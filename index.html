@@ -1,0 +1,51 @@
+<!--!DOCTYPE html é usado para definir a versão do html5-->
+<!DOCTYPE html>
+<!-- html lang="pt-br - Define a língua oficial do elemento que estamos trabalhando-->
+<html lang="pt-br">
+<!--head é usado para enviar informações  ao navegador-->
+<head>
+    <meta charset="UTF-8">
+    <!--http-equiv="X-UA-Compatible" e content="IE=edge" - é uma configuração para sempre utilizarmos sua versão mais recente neste navegador especificamente.Caso estejamos rodando o código no Edge, é importante que coloquemos esta informação <meta>-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--viewport" é o próprio dispositivo que acessará nossa página, e obtém sua largura com width=device-width para depois gerar a escala da página com initial-scale, que sempre iniciará com 1.0 com base na tela, seja de celular, Ipad, computador, entre outras.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- é usado para criar o título da aba do navegador-->
+    <title>Portfolio</title>
+     <link rel="stylesheet" href="./estilos/style.css">
+    
+</head>
+<!-- é o corpo da página e também é usado para exibir informações para o usuário.-->
+<body>
+    <!--é usado para criar um cabeçalho (menu)-->
+        <header class="cabecalho">
+            <nav class="cabecalho_menu">
+                <a class="cabecalho_menu_link" href="index.html">Home</a>
+                <a class="cabecalho_menu_link" href="about.html">Sobre Mim</a>
+            </nav>
+        </header>
+    <!-- o main é usado para colocar  título, paragráfo ...-->
+    <main class="apresentacao">
+            <section class="apresentacao_conteudo">
+                <h1 class="apresentação_conteudo_titulo"> Eleve seu negócio a outro nível com uma FullStack de qualidade!</h1>
+                <p class="apresentacao_conteudo_texto">Olá! Sou Bruna Amaral, desenvolvedora FullStack com especialidades em 
+                    HTML,CSS,JavaScript,SQL (estudando TypeScript, React,Figma e Java).
+                <p class="apresentacao_conteudo_texto">Estou em busca de ajudar e colocar em prática boas ideias.</p> 
+                <p class="apresentacao_conteudo_texto">Vamos Conversar? </p>
+                <div class="apresentacao_links">
+                        <h2 class="apresentacao_links_subtitulo">Acesse minhas redes</h2>
+                        <a class="apresentacao_links_link" href="https://www.linkedin.com/in/brunaamaraldev/">
+                            <img src="./assets/linkedin.png">
+                            linkedin</a>
+                        <a class="apresentacao_links_link" href="https://github.com/brunaamaral95">
+                            <img src="./assets/github.png">
+                            Github</a>
+                </div>
+            </section>
+            <img src="./assets/perfil.jpg"   alt="Foto de Bruna">
+    </main>
+    <!-- é usado para criar o rodapé  da página-->
+    <footer class="rodape">
+        <p>&copy; Copyright Bruna Amaral - 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+/* essa url é do site fontes que usamos para importar a fonte que queremos alterar */
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+
+/* zerando os espaçamentos */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color:#8FBC8F;
+    color: #F6F6F6;
+}
+
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+    
+}
+
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+    
+}
+
+
+.cabecalho_menu_link{
+    font-family: 'Montserrat' , sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F6F6F6;
+    text-decoration: none;
+}
+
+.apresentacao{
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.apresentacao__conteudo{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+
+
+.apresentacao_conteudo_texto{
+    font-size: 24px;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.apresentacao_links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao_links_subtitulo{
+    font-family: 'krona one' , sans-serif;
+    font-weight: 400;
+    font-size: 20PX;
+}
+
+.apresentacao_links_link{
+    /* background-color:lightcoral; */
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid#e58b8b ;
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.apresentacao_links_link:hover{
+    border: solid #F6F6F6 ;
+}
+
+
+.rodape{
+    border-top: 1px solid  #F6F6F6;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    
+    
+    
+}
+
